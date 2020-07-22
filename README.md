@@ -2,6 +2,8 @@
 
 **Project Website:** [https://webmuseu.org/recursos/](https://webmuseu.org/recursos/)
 
+** GitHub Repository:** [https://github.com/Webmuseu/web-resources-project](https://github.com/Webmuseu/web-resources-project)
+
 **GitHub Pages:** [https://webmuseu.github.io/web-resources-project/](https://webmuseu.github.io/web-resources-project/) 
 
 **HTML Museum Template:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
