@@ -2,7 +2,7 @@
 
 **Project Website:** [https://webmuseu.org/recursos/](https://webmuseu.org/recursos/)
 
-** GitHub Repository:** [https://github.com/Webmuseu/web-resources-project](https://github.com/Webmuseu/web-resources-project)
+**GitHub Repository:** [https://github.com/Webmuseu/web-resources-project](https://github.com/Webmuseu/web-resources-project)
 
 **GitHub Pages:** [https://webmuseu.github.io/web-resources-project/](https://webmuseu.github.io/web-resources-project/) 
 
