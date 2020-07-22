@@ -2,11 +2,11 @@
 
 **Project Website:** [https://webmuseu.org/recursos/](https://webmuseu.org/recursos/)
 
-**GitHub Pages:** [https://webmuseu.github.io/web-resources/](https://webmuseu.github.io/web-resources-project/) 
+**GitHub Pages:** [https://webmuseu.github.io/web-resources-project/](https://webmuseu.github.io/web-resources-project/) 
 
-**HTML Museum Template:** [https://webmuseu.github.io/web-resources/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
+**HTML Museum Template:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
 
-**HTML Tutorial (Portuguese):** [https://webmuseu.github.io/web-resources/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
+**HTML Tutorial (Portuguese):** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
 
 **Project management:** [https://github.com/users/Webmuseu/projects/1](https://github.com/users/Webmuseu/projects/1)
 
