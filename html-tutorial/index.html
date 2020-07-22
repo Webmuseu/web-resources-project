@@ -1,0 +1,313 @@
+<!DOCTYPE html> <!-- Tipo do Documento (HTML) -->
+<html lang="pt-BR" dir="ltr"> <!-- Abre o documento HTML e informa a língua e direção de leitura -->
+
+<!-- O <head> contém informações que são lidas pelo navegador, mecanismos de busca, leitores de tela, etc. Não aparecem na tela do usuário. -->
+<head>
+    <title>Tutorial de HTML</title> <!-- Título da Aba no Navegador -->
+    <meta charset="UFT-8"> <!-- Codificação de Caracteres / Teclado Utilizado -->   
+    <meta name="description" content="Tutorial de HTML desenvolvido pela professora Ana Cecília Rocha Veiga, da Escola de Ciência da Informação da UFMG."> <!-- Descrição da página. -->
+</head>
+
+<!-- Na HTML, a indentação do texto (como demonstrada acima no head) não resulta em nada no código, mas é utilizada pelo programador 
+     para tornar o texto mais legível aos olhos humanos. --> 
+
+<body> <!-- Corpo da página, conteúdo visível para o usuário. -->
+<main> <!-- Conteúdo principal da página. -->
+    <header> <!-- Cabeçalho da página. -->
+        <!-- O menu de navegação é uma lista, recurso que será explicado mais adiante neste tutorial. -->
+        <nav role="navigation" aria-label="menu principal">  <!-- Informa que o papel desta lista é ser a navegação e menu principal da página. -->
+            <ul>
+                <li>Home</li> <!-- A Home não contém um link porque, por enquanto, este Tutorial tem apenas uma página. -->
+                <li><a href="https://webmuseu.org/hub-de-websites-culturais/">Webmuseu</a></li>
+                <li><a href="https://webmuseu.org/ana-rocha-veiga/">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article> <!-- Artigo da página, seu conteúdo principal. -->
+        <h1>Tutorial de HTML</h1> <!-- Título principal da página, será explicado mais adiante. -->
+
+            <b>Instruções: Salve este arquivo no seu computador, clicando com o botão direito do mouse sobre a página. Abra este arquivo no 
+            seu navegador de preferência (duplo clique) para visualizar a página publicada. Abra outra janela com o arquivo em um editor de texto
+            para programação (Visual Studio Code, Atom, etc.). Se não possuir um, abra no bloco de notas (clique direito do mouse, abrir com, bloco de notas).
+            Coloque as janelas lado a lado para estudar, simultaneamente, o código e resultado publicado pelo navegador.</b> 
+
+        <h2>O que é HTML e CSS?</h2>
+
+            <p><i>Hypertext Markup Language</i> (Linguagem de Marcação de Hipertexto) é uma linguagem de marcação
+            utilizada na construção de páginas na Internet. Uma <b>linguagem de marcação</b> consiste em um conjunto de códigos aplicados a 
+            um texto ou trecho de texto, acrescentando informações adicionais que ajudam o computador a compreender corretamente 
+            aquele documento. Por exemplo, a partir destas marcações, o navegador sabe o que é um título, citação, link,
+            imagem, etc.</p>
+
+            <p>Cada parte marcada do documento, portanto, passa a ter um sentido para o computador e para o programador. É o que chamamos 
+            de <b>web semântica</b>.</p>
+            
+            <p>Se a HTML é responsável por marcar e atribuir sentido às diferentes partes de um texto, o CSS é responsável por dar
+            uma aparência bonita e customizada para cada uma destas partes.</p> 
+            
+            <p>O website <a href="http://www.csszengarden.com/214/">CSS Zen Garden</a> demonstra todo o poder da HTML e do CSS, conferindo 
+            vários estilos diferentes ao mesmo texto em HTML. Ou seja, todos estes websites disponíveis no CSS Zen Garden, tão diferentes 
+            um do outro na aparência, possuem o mesmíssimo conteúdo em termos de texto. Veja alguns exemplos:
+
+                <ul>
+                    <li><a href="http://www.csszengarden.com/220/">Garments - By Dan Mall</a></li>
+                    <li><a href="http://www.csszengarden.com/221/">Mid Century Modern - By Andrew Lohman</a></li>
+                    <li><a href="http://www.csszengarden.com/219/">Steel - By Steffen Knoeller</a></li>
+                </ul>
+
+            A HTML também permite repassar informações relevantes sobre a página para os mecanismos de busca (DuckDuckGo, Google, etc.) e para os 
+            softwares leitores de tela, utilizados por pessoas com deficiência.</p>
+
+        <h2>O código HTML: Tags</h2>
+
+            <p>Para fazer a marcação, inserimos códigos ao longo do texto. O código da HTML é formado principalmente por <b>tags</b> (etiquetas). 
+            Cada tag possui uma abertura (colchetes angulares e código) e um fechamento (colchetes angulares barra e código). A tag de abertura 
+            indica quando começa a marcação. A de fechamento, quando termina. Veja como exemplo a tag para negrito abaixo (letra b de <b>bold</b>):</p> 
+
+            <pre>
+                A linguagem de marcação <b>HTML</b> foi criada pelo físico britânico Tim Berners-Lee, em 1990.<br>
+                <code>A linguagem de marcação &lt;b&gt;HTML&lt;/b&gt; foi criada pelo físico britânico Tim Berners-Lee, em 1990.</code><br>
+                <!-- A tag code é utilizada para indicar que aquele elemento é um código. -->
+            </pre>
+
+            <p>Este conjunto formado pelas tags e seu conteúdo denomina-se <b>elemento</b>. Os elementos podem ser 
+            <b>inline</b> (dentro do texto) ou <b>block-level elements</b> (conformam um bloco separado).</p>
+
+        <h2>Acessibilidade</h2>
+
+            <p>Uma marcação bem feita da HTML contribui para a acessibilidade, uma vez que o software leitor de tela será capaz de 
+            conduzir uma correta navegação e narração do texto. Atributos especiais, como <b>ARIA Roles</b>, inserem legendas 
+            no texto especialmente para este fim. Para saber mais sobre acessibilidade para a Internet consulte o
+            website <a href="https://www.w3.org/WAI/">Web Accessibility Initiative</a></p>
+
+        <h2>Comentários</h2>
+
+            <p>Os comentários não aparecem na página exibida no navegador, mas são importantes para explicar 
+            o código para outros programadores, bem como para adicionar lembretes e explicações para o próprio 
+            autor do código. Assim, sempre que o programador retornar ao seu código compreenderá suas intenções e 
+            atividades em andamento.</p> 
+
+            <p> Por fim, a tag de comentário pode ser inserida para desativar temporariamente uma linha de código. 
+            A cor diferenciada, em geral cinza ou verde, demarca para o leitor o que é um código ativo e o que é comentário.
+            Marcamos um comentário com colchetes, sinal de exclamação e dois traços.</p> 
+
+                <code>&lt;!-- Este é um exemplo de comentário em HTML. --&gt;</code>
+            
+                <!-- As entidades permitem escrever símbolos que fazem parte da HTML na forma de texto, de modo com que o 
+                navegador não interprete aquele símbolo como sendo parte do código. Também auxiliam na formatação
+                do conteúdo. Repare que no exemplo de comentário acima utilizamos uma entidade para representar o colchete
+                angular de abertura (&lt;) e fechamento (&gt;). Caso contrário, a HTML interpretaria este colchete como parte 
+                de um código ativo. -->
+            
+        <h2>Títulos</h2>
+
+            <p>A tag de título é marcada com a letra h (headline) seguida pelo número do seu nível, que varia de 1 a 6. 
+            Ajudam a estruturar a hierarquia (importância) do texto, compondo títulos e subtítulos e facilitando a 
+            compreensão por parte do leitor. A hierarquia dos títulos também é muito importante para a acessibilidade, 
+            facilitando a navegação pelo texto utilizando softwares leitores de tela.</p> 
+            
+            <p>Veja os exemplos a seguir:</p> 
+
+                <pre>
+                    <h1>Título 1</h1> <code>&lt;h1&gt;</code>
+                    <h2>Título 2</h2> <code>&lt;h2&gt;</code>
+                    <h3>Título 3</h3> <code>&lt;h3&gt;</code>
+                    <h4>Título 4</h4> <code>&lt;h4&gt;</code>
+                    <h5>Título 5</h5> <code>&lt;h5&gt;</code>
+                    <h6>Título 6</h6> <code>&lt;h6&gt;</code>
+                </pre>
+        
+        <h2>Parágrafos</h2>
+
+            <p>Para marcar um parágrafo no texto, utilize a tag com a letra <b>p</b>. Assim, será possível demonstrar onde o parágrafo  
+            começa e onde ele termina. Caso contrário, o texto exibido no navegador será um bloco compacto, sem espaço 
+            entre os parágrafos.</p>
+
+                <code>&lt;p&gt;Este é um exemplo de texto marcado com a tag parágrafo.&lt;/p&gt;</code>
+
+        <h2>Itálico</h2>
+
+            <p>Existem duas tags que resultam em um texto em fonte itálica. A primeira, com a letra i, apenas indica a 
+            aparência do texto. A segunda, com as letras "em", comunicam para o computador que aquele texto está sendo 
+            também enfatizado pelo autor. Isto terá impacto, por exemplo, para a locução do texto. 
+            Veja este exemplo:</p>
+            
+                <p><i><code>Esta &lt;i&gt;palavra&lt;/i&gt; está em itálico, já esta outra &lt;em&gt;palavra&lt;/em&gt; está, além do itálico, também destacada.</code></i></p>
+                        
+        <h2>Negrito</h2>
+
+            <p>Assim como o itálico, o negrito também possui uma tag para realçar a importância e força de um texto (<b>strong</b>), contando com outra, a tag <b>b</b> como já vimos,
+            apenas para destacar parte do texto em negrito. Confira o exemplo:</p>
+                
+                <pre>
+                    <code>&lt;strong&gt;Atenção!&lt;/strong&gt;</code> Na HTML é importante não se esquecer de <code>&lt;b&gt;fechar a tag&lt;/b&gt;</code>.<br>
+                    <strong>Atenção!</strong> Na HTML, é importante não se esquecer de <b>fechar a tag</b>.<br>
+                </pre>
+
+        <h2>Listas</h2>
+
+            <p>Em HTML, listas (tag <b>li</b>) podem ser utilizadas em vários contextos. No primeiro exemplo, temos uma lista de itens marcados com uma bolinha 
+            (Unordered List, tag <b>ul</b>):</p>
+
+                <ul>
+                    <li>Designer Gráfico</li>
+                    <li>Web Designer</li>
+                    <li>UX Designer</li>
+                    <li>Desenvolvedor Web</li>
+                    <li>Programador</li>
+                </ul>
+
+            <p>O segundo exemplo (Ordered List, tag <b>ol</b>), confere uma sequência na lista por meio de números:</p>
+
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+
+            <p>Por fim, no terceiro tipo temos uma lista na qual um termo é relacionado à uma ou mais 
+            definições. É o caso, por exemplo, de um glossário (Definition Term, tag <b>dt</b>):</p>
+
+                <dl>
+                    <p>
+                        <dt>HTML - HyperText Markup Language.</dt>
+                        <dd>Linguagem de marcação, que confere significado a um texto.</dd>
+                        <dd>A primeira linguagem que um programador web precisa aprender.</dd>
+                    </p>
+                    <p>
+                        <dt>CSS - Cascading Style Sheets</dt>
+                        <dd>Linguagem que confere estilo às páginas de HTML.</dd>
+                        <dd>A segunda linguagem que um programador web precisa aprender.</dd>
+                    </p>
+                    <p>
+                        <dt>JavaScript</dt>
+                        <dd>Linguagem de programação, que confere interatividade às páginas na web.</dd>
+                        <dd>A terceira linguagem que um programador web precisa aprender.</dd>
+                    </p>
+                </dl>
+                
+        <h2>Menu de Navegação</h2>
+
+                <p>Para construirmos um menu de navegação (como o desta página), basta incluirmos uma lista dentro da tag <b>nav</b>. Além disto, 
+                precisamos que cada item de nossa lista seja um link, de modo com que o menu seja navegável. Em seguida,
+                utilizando CSS, conferimos ao menu uma aparência mais sofisticada do que uma simples lista de links.</p>
+
+        
+        <h2>Citação</h2>
+
+            <p>Citações dentro de um parágrafo devem ser escritas <q>entre aspas</q> (tag <b>q</b>). Utilizando CSS, podemos posteriormente 
+            conferir aparência diferenciada a uma citação. Para isto, devemos inserir seu conteúdo em um bloco de citação 
+            (blockquote), marcando ainda o autor com tags específicas (cite).</p> 
+
+                <blockquote>
+                <code>&lt;blockquote&gt;</code>
+                    <p>No trabalho, quando as pessoas olham para a tela do meu computador e a veem cheia de código, não é incomum
+                    fazerem comentários dizendo que parece muito complicado ou que devo ser muito inteligente para compreender isso. 
+                    A verdade é que não é tão difícil aprender a escrever páginas web e a ler o código usado para criá-las (...)
+                    Entender HTML e CSS pode ajudar qualquer um que trabalha com a web.</p>
+
+                    <cite><code>&lt;cite&gt;</code>Jon Duckett - Livro HTML&CSS: Projete e construa websites<code>&lt;/cite&gt;</code></cite> 
+                <p></p><code>&lt;/blockquote&gt;</code></p>
+                </blockquote>
+
+        <h2>Atributos</h2>
+
+            <p>Além das informações visíveis para o leitor no navegador, podemos comunicar para o computador, por meio de código, 
+            <b>atributos</b> adicionais. Os atributos também classificam o elemento para que formatações de estilo possam ser 
+            programadas em CSS.</p>
+
+            <p>Por exemplo, podemos utilizar a tag <b>time</b> para informar que aquele texto se refere à uma data e/ou hora. 
+            Acrescentamos o atributo <b>datetime</b>, que seguirá um padrão da máquina para datas (YYYY-MM-DD hh-mm).</p> 
+
+            <p>Assim, a data pode ser escrita por extenso no texto, em qualquer formato (amanhã ao meio dia, dois dias atrás,
+            11 de março de 2020, etc.), pois a data precisa será informada para o computador via atributo, conforme no exemplo abaixo:</p>
+
+                <pre>
+                    <time datetime="2020-03-11 14:00"> 14 horas do dia 11 de Março de 2020. </time> <br>
+                    <code>&lt;time datetime:"2021-06-17 17:00"&gt; 14 horas do dia 11 de Março de 2020 &lt;/time&gt;</code> <br>
+                </pre>
+
+        <h2>Link</h2>
+
+            A tag de link utiliza a letra <b>a</b> de <b>anchor element</b>. Também demanda um atributo <b>href</b>, que aponta
+            para o conteúdo a ser aberto pelo link. Refere-se à <b>Hypertext Reference</b>. Em seguida, vem o conteúdo 
+            clicável, que pode ser um texto, uma imagem, dentre outros.  
+
+                <p><a href="https://webmuseu.org/">Webmuseu</a></p>
+                <p><code>&lt;a href="https://webmuseu.org/"&gt;Webmuseu&lt;/a&gt;</code></p>
+
+        <h2>Imagens</h2>
+
+        <p>Cada imagem contém quatro atributos. O <b>src (source)</b> indica qual arquivo será carregado. O 
+        <b>alt (texto alternativo)</b> consiste em uma descrição objetiva do conteúdo da imagem. Esta descrição será 
+        apresentada caso a imagem não carregue ou lida pelos softwares leitores de tela (para pessoas com deficiência visual).
+        Se o conteúdo da imagem não for relevante (por exemplo, uma faixa colorida apenas para decorar a página), deixar em branco. 
+        Por fim, temos as dimensões da imagem em pixels.</p>
+
+        <p> Para saber mais sobre como escrever um texto alternativo para imagens, acesse 
+        <a href="https://make.wordpress.org/accessibility/handbook/content/alternative-text-for-images/">este link</a> no Codex do WordPres.</p>
+        
+        <p><code>&lt;img scr="html_css_book.jpg" alt="três exemplares do livro HTML & CSS Design and build websites" width="700" height="300"&gt;</code></p>
+
+        <img src="html_css_book.jpg" alt="três exemplares do livro HTML & CSS Design and build websites" width="700" height="300">
+
+        <p><a href="http://www.htmlandcssbook.com/">Fonte: Website do livro HTML & CSS</a></p>
+
+        <h2>Áudio e Vídeo</h2>
+
+        <p>Áudios e vídeos podem ser inseridos diretamente na página via HTML. Entretanto, o mais comum é utilizarmos
+        serviços de publicação de podcasts e vídeos, como Vimeo ou YouTube, inserindo o arquivo por meio de código fornecido pelo 
+        próprio serviço.</p> 
+
+        <p>As vantagens de se embedar um vídeo, como se chama este processo, são muitas. Por exemplo, estas 
+        plataformas especializadas ajustam a resolução do vídeo ao longo da exibição, de acordo com a qualidade da 
+        conexão do usuário. Automatizam funções e oferecem recursos de forma fácil, como legendas.</p> 
+
+        <p>As legendas são extremamente importantes nos vídeos, por vários motivos: acessibilidade (pessoas surdas ou com 
+        deficiência auditiva), usuários em locais públicos que não estejam de posse de um fone de ouvido ou, ainda, quando
+        o áudio do vídeo está rápido demais. As legendas também permitem melhorar a compreensão das pessoas que não falam
+        a mesma língua da mídia, não possuam o mesmo sotaque, usuários pouco familiarizados com vocabulários específicos, para 
+        citarmos alguns exemplos. Por tudo isto, em muitos casos, a legenda é inclusive exigida por lei.</p> 
+
+        <p>Além de vídeos e áudios, é possível embedar uma série de outros conteúdos nas páginas em HTML, como mapas e posts de 
+        redes sociais. Entretanto, a inserção de códigos externos numa página requer cuidados com a cibersegurança. Confira se as fontes 
+        são confiáveis e se o conteúdo inserido não se alterou ao longo do tempo.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QeIZ-BfDwzU" frameborder="0" allow="accelerometer; autoplay;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- Procure, no serviço de podcast ou vídeo, as opções de embedar, incorporar, iframe ou similares, para encontrar o código.
+        Copie e cole o código no texto. -->
+
+        <h2>Outras tags</h2>
+
+        <p><code>&lt;br&gt;</code> Quebra de linha (esta tag não tem fechamento).</p>
+        <p><code>&lt;code&gt;&lt;/code&gt;</code> Permite escrever um código em forma de texto.</p>
+        <p><code>&lt;pre&gt;&lt;/pre&gt;</code> Segue a formatação atribuída ao texto, incluindo indentações.</p>
+        <p><code>&lt;sub&gt;&lt;/sub&gt;</code> Subescrito, como o 2 em CO<sub>2</sub>.</p>
+        <p></p><code>&lt;sup&gt;&lt;/sup&gt;</code> Superescrito, como em números de notas<sup>1</sup> de rodapé.</p>
+        <p><code>&lt;small&gt;&lt;/small&gt;</code> Textos com menor relevância, como o Copyright desta página.</p>
+
+        <h2>Para aprender mais</h2>
+
+            <p><a href="https://html.spec.whatwg.org/multipage/">HTML Living Standard (Padrão oficial da HTML)</a> </p> 
+            <p><a href="https://cursos7.com.br/curso/curso-de-html/">Curso de HTML5 para iniciantes - Cursos7 (Curso on-line gratuito)</a></p>
+            <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML: Linguagem de Marcação de Hipertexto - MDN web docs (Tutorial)</a></p>
+            <p><a href="https://www.linkedin.com/learning/html-essential-training-4/"> Html Essential Training - Jen Simmons (Curso em Inglês no LinkedIn)</a></p>
+            <p><a href="http://www.htmlandcssbook.com/"> HTML & CSS Projete e construa websites - Jon Duckett (Livro em português e website em inglês)</a></p>
+            
+    </article>
+
+</main>
+
+    <footer> <!-- Rodapé da página. -->
+        <p>Acompanhe e contribua para melhorar este tutorial no <a href="https://github.com/Webmuseu">GitHub Webmuseu</a>
+        ou no website do <a href="https://webmuseu.org/recursos/">Projeto Recursos Web para GLAM (galerias, bibliotecas, arquivos e museus)</a></p>
+    </footer>
+
+    <p><small> &copy; Ana Cecília Rocha Veiga - Webmuseu.org</small></p> <!-- Conteúdos de menor relevância -->
+
+</body>
+</html>
+<!-- Acompanhe e contribua com este projeto no GitHub: https://github.com/Webmuseu/web-resources -->

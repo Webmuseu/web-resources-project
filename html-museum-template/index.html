@@ -1,0 +1,212 @@
+<!DOCTYPE html> <!-- Tipo do Documento (HTML) -->
+<html> <!-- Abre o documento HTML -->
+<title>Template para Museu</title> <!-- Título da Aba do Navegador -->
+<meta charset="UTF-8"> <!-- Codificação de Caracteres / Teclado Utilizado -->
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Define as dimensões da página e escala nos diversos tipos de equipamentos -->
+<link rel="stylesheet" href="folhaCSS.css"> <!-- Arquivo CSS -->
+<body>
+
+
+
+<!-- Barra de Navegação (Menu no Topo da Página) -->
+<div class="w3-top"> <!-- Programação CSS -->
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2"> <!-- Programação CSS -->
+    <a href="#home" class="w3-bar-item w3-button"><b>Nome do</b> Museu</a> <!-- Nome do Site e Botão de Reset da Página -->
+    <!-- Imagem do British Museum: https://www.pexels.com/pt-br/foto/aboboda-arquitetura-arte-cidade-2815035/ -->
+    <!-- Menu de Navegação Flutuante à Direita, oculto em equipamentos pequenos -->
+    <div class="w3-right w3-hide-small"> <!-- Programação CSS -->
+      <a href="#sobre" class="w3-bar-item w3-button">Sobre</a> <!-- Botão Sobre -->
+      <a href="#exposicoes" class="w3-bar-item w3-button">Galeria de Fotos</a> <!-- Botão Exposições -->
+	  <a href="#museus" class="w3-bar-item w3-button">Exposições</a> <!-- Botão Museus -->
+      <a href="#contato" class="w3-bar-item w3-button">Contato e Visitação</a> <!-- Botão Contato -->
+    </div>
+  </div>
+</div>
+
+<!-- Cabeçalho com Imagem -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home"> <!-- Programação CSS -->
+  <img class="w3-image" src="images/foto_cabecalho.jpg" alt="Fachada principal do museu, cercado por árvores." width="1500" height="800"> <!-- Imagem -->
+  <div class="w3-display-middle w3-margin-top w3-center"> <!-- Programação CSS -->
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-hide-small w3-text-light-grey">Museu</span><span class="w3-padding w3-black w3-opacity-min"><b>Nome da Instituição</b></span></h1> <!-- Texto sobre a Imagem -->
+  </div>
+</header>
+
+<!-- Conteúdo da Página -->
+<div class="w3-content w3-padding" style="max-width:1564px"> <!-- Programação CSS -->
+
+<!-- Seção Sobre -->
+  <div class="w3-container w3-padding-32" id="sobre"> <!-- Programação CSS -->
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Sobre o Museu</h3> <!-- Título da Seção -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.
+	Nunc posuere purus rhoncus pulvinar aliquam. Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor
+	venenatis. Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. Sed ut dui ut lacus dictum
+	fermentum vel tincidunt neque. Sed sed lacinia lectus. Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac,
+  convallis semper risus. In adipiscing ultrices tellus, in suscipit massa vehicula eu.</p>
+  
+    <p>Integer sit amet risus augue. Integer fringilla massa sit amet nunc ultrices, sed accumsan diam elementum. Nam sit 
+  amet massa sed nunc volutpat tincidunt sed ut enim. Phasellus et rhoncus sapien. Quisque venenatis lobortis ullamcorper. 
+  Quisque egestas felis eget euismod aliquam. Duis pharetra augue justo. Pellentesque habitant morbi tristique senectus et 
+  netus et malesuada fames ac turpis egestas. Donec ultricies felis libero, eget consectetur metus vestibulum at. Duis porta
+  justo arcu, vitae rutrum augue laoreet quis. Vivamus laoreet dui id tincidunt feugiat. In ullamcorper dui neque, sed consectetur
+  ligula sagittis quis.</p>
+
+    <p>Donec in urna eu felis facilisis mollis ut sed ipsum. Etiam vitae tristique odio. Proin tempor, nulla in aliquam dictum, 
+  libero elit fringilla ligula, ac malesuada purus metus ut magna. Donec vitae tempor lacus. Nulla suscipit arcu lorem, id suscipit
+  magna egestas vel. Sed nec lacus velit. Pellentesque id diam eget augue malesuada faucibus id in erat. Nullam non rhoncus tellus. 
+  Morbi id neque lorem. Nunc tortor sem, semper ut tincidunt a, porttitor nec est. Nunc congue dui nec nisl semper malesuada.</p>
+  </div>
+  
+  <!-- Seção Galeria -->
+  <div class="w3-container w3-padding-32" id="exposicoes"> <!-- Programação CSS -->
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Galeria de Fotos</h3> <!-- Título da Seção -->
+  </div>
+  <div class="w3-row-padding">
+  
+	<!-- Primeira Foto -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Exposições de Longa Duração</div> <!-- Título da Foto -->
+        <a href="https://www.pexels.com/pt-br/foto/arte-galeria-passagem-centro-3004909/" target="_blank"><img src="images/foto1.jpg" alt="Descrição alt da sua foto." style="width:100%"/></a> <!-- Imagem da Foto 1 -->
+      </div>
+	  
+	<!-- Segunda Foto -->
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Exposição no Jardim</div> <!-- Título da Foto -->
+        <a href="https://pt.dreamstime.com/thx-4-as-mem%C3%B3rias-christchurch-public-domain-image-free-90277952" target="_blank"><img src="images/foto2.jpg" alt="Descrição alt da sua foto." style="width:100%"/></a> <!-- Imagem da Foto 2 -->
+      </div>
+	  
+	<!-- Terceira Foto -->
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Novo Anexo</div> <!-- Título da Foto -->
+        <a href="https://pt.dreamstime.com/museu-das-montanhas-rochosas-public-domain-image-free-91783141" target="_blank"><img src="images/foto3.jpg" alt="Descrição alt da sua foto." style="width:100%"></a> <!-- Imagem da Foto 3 -->
+      </div>
+	  
+	<!-- Quarta Foto -->
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Concertos e Teatros</div> <!-- Título da Foto -->
+        <a href="https://pixabay.com/photos/amphitheatre-music-musicians-2109926/" target="_blank"><img src="images/foto4.jpg" alt="Descrição alt da sua foto." style="width:100%"></a> <!-- Imagem da Foto 4 -->
+      </div>
+    </div>
+  </div>
+
+	<!-- Quinta Foto -->
+  <div class="w3-row-padding"> <!-- Programação CSS -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Oficinas de Arte</div> <!-- Título da Foto -->
+        <a href="https://www.pexels.com/pt-br/foto/arte-escova-pincel-escovas-3777935/" target="_blank"><img src="images/foto5.jpg" alt="Descrição alt da sua foto." style="width:99%"></a> <!-- Imagem da Foto 5 -->
+      </div>
+	  
+	<!-- Sexta Foto -->
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Biblioteca e Arquivo</div> <!-- Título da Foto -->
+        <a href="https://www.pexels.com/pt-br/foto/acao-apolice-arquivo-arrumado-256559/" target="_blank"><img src="images/foto6.jpg" alt="Descrição alt da sua foto." style="width:99%"></a> <!-- Imagem da Foto 6 -->
+      </div>
+	
+	<!-- Sétima Foto -->
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Café do Museu</div> <!-- Título da Foto -->
+        <a href="https://pixabay.com/photos/coffee-making-cafe-shop-espresso-984328/" target="_blank"><img src="images/foto7.jpg" alt="Descrição alt da sua foto." style="width:99%"></a> <!-- Imagem da Foto 7 -->
+      </div>
+    </div>
+	
+	<!-- Oitava Foto -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <div class="w3-display-container"> <!-- Programação CSS -->
+        <div class="w3-display-topleft w3-black w3-padding">Loja do Museu</div> <!-- Título da Foto -->
+        <a href="https://www.pexels.com/pt-br/foto/cidade-comprar-compras-empresa-626986/" target="_blank"><img src="images/foto8.jpg" alt="Descrição alt da sua foto." style="width:99%"></a> <!-- Imagem da Foto 8 -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Seção Exposições --> 
+  <div class="w3-container w3-padding-32" id="museus"> <!-- Programação CSS -->
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Exposições</h3> <!-- Título da Seção -->
+    </p>
+  </div>
+  
+  <div class="w3-row-padding w3-grayscale">
+	
+	<!-- Primeira Exposição -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <img src="images/projeto1.jpg" alt="John" style="width:100%"> <!-- Programação CSS -->
+      <h3>Primeira Exposição</h3> <!-- Nome da Exposição -->
+      <p class="w3-opacity">Galeria Primeiro Andar</p> <!-- Local da exposição -->
+      <p>Informações básicas sobre a exposição, como data e horário de visitação.</p> <!-- Descrição -->
+      <p><a href="https://pt.dreamstime.com/art-gallery-antique-frame-concept-public-domain-image-free-116769392" target="_blank"><button class="w3-button w3-light-grey w3-block">Saiba Mais</button></p></a> <!-- Botão "Saiba Mais" -->
+    </div>
+	
+	<!-- Segunda Exposição -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <img src="images/projeto2.jpg" alt="Jane" style="width:100%"> <!-- Programação CSS -->
+      <h3>Segunda Exposição</h3> <!-- Nome da Exposição -->
+      <p class="w3-opacity">Galeria Segundo Andar</p> <!-- Local da exposição -->
+      <p>Informações básicas sobre a exposição, como data e horário de visitação.</p> <!-- Descrição do Projeto -->
+      <p><a href="https://pt.dreamstime.com/people-inside-museum-public-domain-image-free-109910686" target="_blank"><button class="w3-button w3-light-grey w3-block">Saiba Mais</button></p></a> <!-- Botão "Saiba Mais" -->
+    </div>
+	
+	<!-- Terceira Exposição -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <img src="images/projeto3.jpg" alt="Mike" style="width:100%"> <!-- Programação CSS -->
+      <h3>Terceira Exposição</h3> <!-- Nome da Exposição -->
+      <p class="w3-opacity">Galeria Terceiro Andar</p> <!-- Local da exposição -->
+      <p>Informações básicas sobre a exposição, como data e horário de visitação.</p> <!-- Descrição do Projeto -->
+      <p><a href="https://pt.dreamstime.com/mulher-enfrentando-pintura-assortada-com-quadro-public-domain-image-free-109915202" target="_blank" ><button class="w3-button w3-light-grey w3-block">Saiba Mais</button></a></p> <!-- Botão "Saiba Mais" -->
+    </div>
+	
+	<!-- Quarta Exposição --> <!-- Programação CSS -->
+    <div class="w3-col l3 m6 w3-margin-bottom"> <!-- Programação CSS -->
+      <img src="images/projeto4.jpg" alt="Dan" style="width:100%">
+      <h3>Quarta Exposição</h3> <!-- Nome da Exposição -->
+      <p class="w3-opacity">Galeria Quarto Andar</p> <!-- Local da exposição -->
+      <p>Informações básicas sobre a exposição, como data e horário de visitação.</p> <!-- Descrição do Projeto -->
+      <p><a href="https://pt.dreamstime.com/arte-design-galeria-public-domain-image-free-109899295" target="_blank" ><button class="w3-button w3-light-grey w3-block">Saiba Mais</button></a></p> <!-- Botão "Saiba Mais" -->
+    </div>
+  </div>
+
+  <!-- Seção Contato -->
+  <div class="w3-container w3-padding-32" id="contato"> <!-- Programação CSS -->
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contato</h3> <!-- Programação CSS -->
+      <form action="/action_page.php" target="_blank"> <!-- Programação CSS -->
+      <input class="w3-input" type="text" placeholder="Nome" required name="Name"> <!-- Campo Nome -->
+      <input class="w3-input w3-section" type="text" placeholder="E-mail" required name="Email"> <!-- Campo E-mail -->
+      <input class="w3-input w3-section" type="text" placeholder="Assunto" required name="Subject"> <!-- Campo Assunto -->
+      <input class="w3-input w3-section" type="text" placeholder="Mensagem" required name="Comment"> <!-- Campo Mensagem -->
+      <button class="w3-button w3-black w3-section" type="submit"> <!-- Programação CSS -->
+        <i class="fa fa-paper-plane"></i> ENVIAR <!-- Botão de Enviar -->
+      </button>
+    </form>
+
+  <!-- Informações de Visitação -->
+  <p><b>Museu Nome da Instituição</b></p>
+  <p>Rua dos Arquivos, nº 88, Bairro Bibliotecas, Cidade da Cultura. CEP 00.000-000 Telefone: (00) 0000-0000.</p> <!-- Parágrafo com Endereço -->
+  <p>Horário de Visitação: De terça à domingo, 08:00 às 19:00h.</p>
+  <p>Entrada franca.</p>
+  <p><a href="https://www.facebook.com/" title="Facebook" target="_blank" class="w3-hover-text-green">Facebook</a>
+     <a href="https://www.instagram.com/" title="Instagram" target="_blank" class="w3-hover-text-green">Instagram</a>
+     <a href="https://twitter.com/" title="Twitter" target="_blank" class="w3-hover-text-green">Twitter</a>
+  </p>
+
+</div>
+  
+<!-- Final do Conteúdo da Página -->
+</div>
+
+<!-- Rodapé -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>&copy; 2020 Template gratuito customizado por <a href="https://webmuseu.org/recursos/" title="Webmuseu.org" target="_blank" class="w3-hover-text-green">Webmuseu.org</a></p>
+</footer>
+
+<!-- Customizado por Ana Cecília Rocha Veiga (https://webmuseu.org/ana-rocha-veiga/) a partir do template gratuito https://www.w3schools.com/w3css/tryw3css_templates_architect.htm -->
+</body>
+</html>
