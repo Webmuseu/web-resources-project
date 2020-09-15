@@ -12,6 +12,9 @@
 
 **Project management:** [https://github.com/users/Webmuseu/projects/1](https://github.com/users/Webmuseu/projects/1)
 
+
+**PPGCI (Finance Support):** [http://ppgci.eci.ufmg.br/](http://ppgci.eci.ufmg.br/)
+
 ## Project’s Goal
 
 GLAM (galleries, libraries, archives and museums) Web Resources Project develops and provides free access to digital resources directed to information and culture units including, but not limited to, checklists, tutorials, flow charts, mental maps, processes, products and services curatorship, software and plug-in configuration parameters, codes and customized software.
