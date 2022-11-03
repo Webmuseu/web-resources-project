@@ -10,9 +10,6 @@
 
 **HTML Tutorial (Portuguese):** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
 
-**Project management:** [https://github.com/users/Webmuseu/projects/1](https://github.com/users/Webmuseu/projects/1)
-
-
 **PPGCI (Finance Support):** [http://ppgci.eci.ufmg.br/](http://ppgci.eci.ufmg.br/)
 
 ## Project’s Goal
