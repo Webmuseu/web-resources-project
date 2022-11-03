@@ -20,9 +20,9 @@ These are templates and protocols originally developed for the Webmuseum portal 
 
 ## Rationale
 
-This Project results from the need to structure and optimize the resources and management/development processes of the Webmuseum portal (a hub of cultural websites) and of LavMUSEU’s Virtual Laboratory (a registered Research Group).
+This Project results from the need to structure and optimize the resources and management/development processes of the Webmuseum portal (a hub of cultural websites) and of LavMUSEU’s Virtual Laboratory - UFMG.
 
-GLAM Web Resources Project is an effort to meet our greatest web needs, such as: cybersecurity, web design, online collections, documentation and digitalization, management and content creation for digital media, web writing and UX writing, search engine optimization, controlled vocabularies, accessibility, e-commerce, social media, among others.
+GLAM Web Resources Project is an effort to meet our greatest web needs, such as: cybersecurity, web design, online collections, documentation and digitalization, management and content creation for digital media, web writing and UX writing, search engine optimization, controlled vocabularies, accessibility, e-commerce, social media, preservation, among others.
 Considering that such demands are gaps also seen in most GLAM institutions not only in Brazil but also in many other countries around the world, according to data from the State of the Art, the option was to publicly share those resources for free.
 
 The project’s result will be, therefore, gradually published, so as to promote discussion in scientific and open source communities, encouraging the collective construction of knowledge.
