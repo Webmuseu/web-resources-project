@@ -1,0 +1,122 @@
+/* Folha CSS para Tutorial HTML e CSS */
+
+/* Regras Gerais
+___________________________________________________________________________ */
+
+body {
+    margin-left: 15%; /* Margem esquerda será 15% do tamanho da tela. */
+    margin-right: 15%; /* Margem direita será 15% do tamanho da tela. */
+    background-color: white; /* Cor do fundo da página. */
+    color: black; /* Cor do texto da página. */ 
+    font-family: Calibri, Arial, sans-serif; /* Fonte em ordem de preferência, de acordo com as fontes disponíveis no navegador do usuário. Se não tiver nenhuma, usará uma fonte sem serifa disponível. */
+    font-size: 16px; /* Tamanho da fonte, sendo 16px um padrão comum para Web. */
+    text-align: left; /* Texto será alinhado à esquerda, facilitando a leitura na tela. */
+}
+
+
+/* Menu de Navegação
+___________________________________________________________________________ */ 
+
+header { /* Cabeçalho com Logo e Menu */
+    text-align: center; /* Alinhamento centralizado. */
+}
+
+li.menu { /* Elementos li com classe de valor "menu", portanto, a navegação principal do website. */
+    font-size: 28px; /* Tamanho da fonte. */
+    display: inline; /* Lista exibida em linha. */
+    margin-right: 10px; /* Margem, espaço entre os itens do menu. */
+}
+
+.em-construção { /* Classe de valor "em-construção" */ 
+    visibility: hidden; /* Oculta um elemento da página, que ainda pode ser visto no código-fonte. */
+    display: none; /* Oculta também o espaço em branco do elemento oculto. */
+}
+
+
+/* Títulos
+___________________________________________________________________________ */
+
+/* Título Principal */
+h1 {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 32px;
+    color: gray; 
+}
+
+/* Subtítulo */
+h2 {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 24px;
+    color: black; 
+}
+
+
+/* Links
+___________________________________________________________________________ */ 
+
+/* Cor padrão do link */
+a:link {
+    color: gray; /* Cor do link padrão. */
+    text-decoration: underline; /* Link padrão terá sublinhado. */
+}
+
+/* Cor do link visitado - Pseudoclasse :visited */
+a:visited {
+    color:rgb(109, 109, 109)    
+}
+
+/* Cor do link ao passar o mouse - Pseudoclasse :hover */
+a:hover {
+    color: rgb(241, 96, 38);
+    text-decoration: underline;
+}
+
+/* Cor do link ativo no momento - Pseudoclasse :active */
+a:active {
+    color:rgb(241, 96, 38)
+}
+
+/* Links Menu */
+a.menu { /* Elemento a com classe de valor "menu" */
+    text-decoration: none; /* Os links do menu não serão sublinhados como os demais. */
+}
+
+
+/* Botão "Voltar ao Topo"
+___________________________________________________________________________ */ 
+
+#link-topo { /* Elemento com atributo id de valor "link topo". */
+    border: 2px solid black; /* Largura, estilo e cor da borda. Utilizado para fazer a aparência de botão em "Voltar ao topo". */
+    padding: 10px; /* Espaço entre o conteúdo (texto) e a borda. */
+    text-decoration: none; /* Este link não terá sublinhado como os demais. */
+}
+
+.topo { /* Classe "topo" do botão "Voltar ao topo" é centralizada. */
+    text-align: center;
+}
+
+
+/* Copy e Créditos
+___________________________________________________________________________ */
+
+/* Classe de valor "copy", onde estão as informações de direitos autorais da página, em letras pequenas. */
+.copy { 
+    text-align: center;
+}
+
+
+/* 
+Outras Dicas
+___________________________________________________________________________ 
+
+Seletor de Existência: a[class] elementos <a> com atributo chamado "class". Aplica a regra a todos os links que possuam algum atributo de classe. 
+
+Pseudoclasse :focus permite alterar um elemento que está em foco, por exemplo, quando o cursor está 
+em uma entrada de formulário. Em geral, vem logo após :hover.
+
+Elemento contêineres genéricos <div> agrupa elementos para aplicação de regras CSS e <span> permite aplicar regras nos trechos em linha.
+
+Para saber mais sobre esta folha de estilo acesse o livro Princípios da Web para GLAM: Museus, Bibliotecas, Arquivos e Galerias, de autoria da
+professora Ana Cecília Rocha Veiga, que pode ser baixado gratuitamente em https://webmuseu.org/recursos/ 
+
+*/
