@@ -1,4 +1,4 @@
-#Jogo dos Museus - Demo de Python elaborado por Ana Cecília Rocha Veiga (https://anacecilia.digital/sobre/) para o projeto Recursos Web para GLAM (https://webmuseu.org/recursos/)
+#Jogo dos Museus em Python - Demo elaborado por Ana Cecília Rocha Veiga (https://anacecilia.digital/sobre/) para o projeto Recursos Web para GLAM (https://webmuseu.org/recursos/)
 
 #Boas-vindas e instruções
 print("JOGO DOS MUSEUS EM PYTHON")
