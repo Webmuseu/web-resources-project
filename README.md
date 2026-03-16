@@ -1,4 +1,4 @@
-# Projeto Recusos Web para GLAM
+# Projeto Recursos Web para GLAM
 
 **Website do Projeto:** [https://webmuseu.org/recursos/](https://webmuseu.org/recursos/)
 
