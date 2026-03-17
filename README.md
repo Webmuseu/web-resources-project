@@ -1,18 +1,18 @@
 # Projeto Recursos Web para GLAM
 
-**Website do Projeto:** [https://webmuseu.org/recursos/](https://webmuseu.org/recursos)
+**Website do Projeto:** [https://webmuseu.org/recursos](https://webmuseu.org/recursos/)
 
-**Website da Professora Ana Cecília Rocha Veiga:** [anacecilia.digital/](https://anacecilia.digital)
+**Website da Professora Ana Cecília Rocha Veiga:** [anacecilia.digital](https://anacecilia.digital/)
 
 **Repositório no GitHub:** [https://github.com/Webmuseu/web-resources-project](https://github.com/Webmuseu/web-resources-project)
 
-**Página no GitHub:** [https://webmuseu.github.io/web-resources-project/](https://webmuseu.github.io/web-resources-project) 
+**Página no GitHub:** [https://webmuseu.github.io/web-resources-project](https://webmuseu.github.io/web-resources-project) 
 
 **Template em HTML:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
 
 **Tutorial em HTML:** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
 
-**PPGCI UFMG (Apoio Financeiro):** [http://ppgci.eci.ufmg.br/](http://ppgci.eci.ufmg.br/)
+**PPGCI UFMG (Apoio Financeiro):** [http://ppgci.eci.ufmg.br](http://ppgci.eci.ufmg.br/)
 
 ## O Projeto
 
