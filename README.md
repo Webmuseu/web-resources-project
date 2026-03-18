@@ -12,6 +12,8 @@
 
 **Tutorial em HTML:** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
 
+**Manual de Cibersegurança e Privacidade de Dados:** [PDF do Manual] (https://webmuseu.org/recursos/wp-content/uploads/sites/2/2026/03/manual-ciberseguranca-glam-privacidade-ufmg.pdf)  
+
 **PPGCI UFMG (Apoio Financeiro):** [http://ppgci.eci.ufmg.br](http://ppgci.eci.ufmg.br/)
 
 ## O Projeto
