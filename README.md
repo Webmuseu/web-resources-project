@@ -16,7 +16,7 @@
 
 **Manual de Cibersegurança e Privacidade de Dados:** [PDF do Manual](https://anacecilia.digital/manual-de-ciberseguranca-e-privacidade-de-dados-para-museus-bibliotecas-arquivos-e-galerias/)  
 
-**E-book Princípios da Web e dos Repositórios Digitais:** [https://anacecilia.digital/principios-da-web-e-dos-repositorios-digitais-para-museus-bibliotecas-e-arquivos-e-book-gratuito/] (https://anacecilia.digital/principios-da-web-e-dos-repositorios-digitais-para-museus-bibliotecas-e-arquivos-e-book-gratuito/)
+**E-book Princípios da Web e dos Repositórios Digitais:** [PDF do e-book](https://anacecilia.digital/principios-da-web-e-dos-repositorios-digitais-para-museus-bibliotecas-e-arquivos-e-book-gratuito/)
 
 **PPGCI UFMG (Apoio Financeiro):** [http://ppgci.eci.ufmg.br](http://ppgci.eci.ufmg.br/)
 
