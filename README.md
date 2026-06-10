@@ -1,24 +1,28 @@
-# Projeto Recursos Web para GLAM
+# Webmuseu: Pesquisas e Projetos
 
-**Website do Projeto:** [https://webmuseu.org/recursos](https://webmuseu.org/recursos/)
+**Portal Acadêmico:** [https://webmuseu.org/recursos](https://webmuseu.org/recursos/)
 
-**Website da Professora Ana Cecília Rocha Veiga:** [anacecilia.digital](https://anacecilia.digital/)
+**Blog da Coordenadora - Professora Ana Cecília Rocha Veiga:** [anacecilia.digital](https://anacecilia.digital/)
 
 **Repositório no GitHub:** [https://github.com/Webmuseu/web-resources-project](https://github.com/Webmuseu/web-resources-project)
 
 **Página no GitHub:** [https://webmuseu.github.io/web-resources-project](https://webmuseu.github.io/web-resources-project) 
 
-**Template em HTML:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
+**Template em HTML/CSS:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
 
-**Tutorial em HTML:** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
+**Tutorial em HTML/CSS:** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
 
-**Manual de Cibersegurança e Privacidade de Dados:** [PDF do Manual](https://webmuseu.org/recursos/wp-content/uploads/sites/2/2026/03/manual-ciberseguranca-glam-privacidade-ufmg.pdf)  
+**Jogo de Museus em Python:** [https://github.com/Webmuseu/web-resources-project/tree/master/python-museum-game](https://github.com/Webmuseu/web-resources-project/tree/master/python-museum-game)
+
+**Manual de Cibersegurança e Privacidade de Dados:** [PDF do Manual](https://anacecilia.digital/manual-de-ciberseguranca-e-privacidade-de-dados-para-museus-bibliotecas-arquivos-e-galerias/)  
 
 **PPGCI UFMG (Apoio Financeiro):** [http://ppgci.eci.ufmg.br](http://ppgci.eci.ufmg.br/)
 
-## O Projeto
+**PROGRAD UFMG (Apoio Financeiro):** [https://www.ufmg.br/prograd/](https://www.ufmg.br/prograd/)
 
-O projeto Recursos Web para GLAM (Museus, Bibliotecas, Arquivos e Galerias) desenvolve e disponibiliza gratuitamente recursos digitais voltados para unidades de informação e cultura desde 2019.
+## Sobre o projeto
+
+Recursos Web para GLAM (Museus, Bibliotecas, Arquivos e Galerias) desenvolve e disponibiliza gratuitamente recursos digitais voltados para unidades de informação e cultura desde 2019.
 
 Trata-se de um subprojeto da pesquisa Gestão de Museus e Acervos na Web: Tecnologias da Informação e Comunicação, coordenada pela professora Ana Cecília Rocha Veiga na Escola de Ciência da Informação da UFMG.
 
