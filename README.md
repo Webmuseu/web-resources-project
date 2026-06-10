@@ -8,7 +8,7 @@
 
 **Página no GitHub:** [https://webmuseu.github.io/web-resources-project](https://webmuseu.github.io/web-resources-project) 
 
-**Template em HTML/CSS:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
+**Template de Website para GLAM em HTML/CSS:** [https://webmuseu.github.io/web-resources-project/html-museum-template/index.html](https://webmuseu.github.io/web-resources-project/html-museum-template/index.html)
 
 **Tutorial em HTML/CSS:** [https://webmuseu.github.io/web-resources-project/html-tutorial/index.html](https://webmuseu.github.io/web-resources-project/html-tutorial/index.html)
 
