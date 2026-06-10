@@ -2,7 +2,7 @@
 
 **Portal Acadêmico:** [https://webmuseu.org/recursos](https://webmuseu.org/recursos/)
 
-**Blog da Coordenadora - Professora Ana Cecília Rocha Veiga:** [anacecilia.digital](https://anacecilia.digital/)
+**Blog da Coordenadora - Professora Ana Cecília Rocha Veiga:** [https://anacecilia.digital](https://anacecilia.digital/)
 
 **Repositório no GitHub:** [https://github.com/Webmuseu/web-resources-project](https://github.com/Webmuseu/web-resources-project)
 
