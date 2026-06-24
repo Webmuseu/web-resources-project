@@ -18,6 +18,8 @@
 
 **E-book Princípios da Web e dos Repositórios Digitais:** [PDF do e-book](https://anacecilia.digital/principios-da-web-e-dos-repositorios-digitais-para-museus-bibliotecas-e-arquivos-e-book-gratuito/)
 
+**E-book Gestão de Acervos de Estampas Culturais:** [PDF do e-book](https://anacecilia.digital/manual-de-catalogacao-conservacao-preventiva-e-gestao-de-acervos-estampas-eucalol-e-liebig/)
+
 **PPGCI UFMG (Apoio Financeiro):** [http://ppgci.eci.ufmg.br](http://ppgci.eci.ufmg.br/)
 
 **PROGRAD UFMG (Apoio Financeiro):** [https://www.ufmg.br/prograd/](https://www.ufmg.br/prograd/)
